@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "password1"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "password2"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1686498606009,
+      "title": "Fabri Muerte 2",
+      "year": "1995",
+      "genere": "Drama"
+    },
+    {
+      "id": 1686498767855,
+      "title": "Prueb Espacio",
+      "year": "1897",
+      "genere": "Drama"
+    }
+  ]
+}
