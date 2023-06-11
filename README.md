@@ -1,9 +1,7 @@
-## Available Scripts
-
-In the project directory, you can run:
+Run this commands first
 
 ### `npm install`
-### `node start`
+### `npm run server`
 ### `npm start`
 
 
