@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 import { Login } from '../Containers/login';
-import { Table } from '../Containers/table';
+import { Table } from '../Containers/table'
 
 export const AppRouter = () => {
   
