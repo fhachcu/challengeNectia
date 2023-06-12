@@ -74,8 +74,8 @@ export const Table = () => {
 
     return (
         <div className="container">
-            <h1>Movies</h1>
-            <div>
+            <h1 className='my-3'>Movies</h1>
+            <div className='d-flex justify-content-between'>
                 <button className="btn btn-primary mb-3" onClick={() => setShowCreateModal(true)}>
                     Create new movie
                 </button>
