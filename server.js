@@ -29,7 +29,7 @@ server.post('/login', (req, res) => {
 
 // Middleware para verificar el token de autenticación
 const verifyToken = (req, res, next) => {
-  const token = req.headers.authorization?.split(' ')[1];
+  const token = req.headers.authorization && req.headers.authorization.split(' ')[1];
   try {
     const decoded = jwt.verify(token, SECRET_KEY);
     req.userId = decoded.userId;
