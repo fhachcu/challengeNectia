@@ -4,7 +4,7 @@ const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
-const SECRET_KEY = 'mysecretkey';
+const SECRET_KEY = 'mysecretkey_facu';
 
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
@@ -98,8 +98,6 @@ server.delete('/movies/:id', verifyToken, (req, res) => {
     res.status(404).json({ message: 'Movie not found' });
   }
 });
-
-// Servicio CRUD de la entidad seleccionada
 
 server.listen(3002, () => {
   console.log('JSON Server is running');

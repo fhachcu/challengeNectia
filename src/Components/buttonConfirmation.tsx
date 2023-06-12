@@ -2,8 +2,8 @@
 export const ButtonConfirmation = ({showDeleteModal,setShowDeleteModal,movieToDelete,handleDelete}:any) => {
 
     return (
-        <div className="modal" style={{ display: showDeleteModal ? 'block' : 'none' }} tabIndex={-1} role="dialog">
-            <div className="modal-dialog" role="document">
+        <div className="modal modal-background" style={{ display: showDeleteModal ? 'block' : 'none' }} tabIndex={-1} role="dialog">
+            <div className="modal-dialog modal-dialog-centered" role="document">
                 <div className="modal-content">
                     <div className="modal-header">
                         <h5 className="modal-title">Delete movie</h5>

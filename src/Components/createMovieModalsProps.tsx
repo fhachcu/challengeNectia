@@ -12,7 +12,7 @@ export const CreateMovieModal = ({ show, onClose, onCreate, movie, setMovie }: C
     };
   
     return (
-      <div className="modal" style={{ display: show ? 'block' : 'none' }} tabIndex={-1} role="dialog">
+      <div className="modal modal-background" style={{ display: show ? 'block' : 'none' }} tabIndex={-1} role="dialog">
         <div className="modal-dialog" role="document">
           <div className="modal-content">
             <div className="modal-header">
@@ -24,15 +24,15 @@ export const CreateMovieModal = ({ show, onClose, onCreate, movie, setMovie }: C
             <form onSubmit={handleSubmit}>
               <div className="modal-body">
                 <div className="form-group">
-                  <label>Title:</label>
+                  <label className='fw-bold'>Title:</label>
                   <input type="text" name="title" value={movie.title} onChange={handleChange} className="form-control" pattern="[a-zA-Z0-9\s]+" required/>
                 </div>
                 <div className="form-group">
-                  <label>genere:</label>
+                  <label className='fw-bold'>Genere:</label>
                   <input type="text" name="genere" value={movie.genere} onChange={handleChange} className="form-control" pattern="[a-zA-Z0-9\s]+" required/>
                 </div>
                 <div className="form-group">
-                  <label>Year:</label>
+                  <label className='fw-bold'>Year</label>
                   <input type="number" name="year" value={movie.year} onChange={handleChange} className="form-control" pattern="[0-9]+"/>
                 </div>
               </div>

@@ -13,19 +13,42 @@
     background-image: linear-gradient(#f90 10%,#e76a00 100%);
   }
   
-  .btn-3d:hover, .btn-3d:focus {
-    background-color: #e0811b;
-    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f0a100),to(#f70));
-    background-image: linear-gradient(#f0a100 10%,#f70 100%);
-  }
+.btn-3d:hover, .btn-3d:focus {
+  background-color: #e0811b;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f0a100),to(#f70));
+  background-image: linear-gradient(#f0a100 10%,#f70 100%);
+}
   
-  .btn-3d:active {
-    background-color: #cf6a00;
-    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
-    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f0a100),to(#f70));
-    background-image: linear-gradient(#f0a100 10%,#f70 100%);
-  }
+.btn-3d:active {
+  background-color: #cf6a00;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f0a100),to(#f70));
+  background-image: linear-gradient(#f0a100 10%,#f70 100%);
+}
 
-  .bodyColor {
-    background-color: #80808017;
-  }
+.bodyColor {
+  background-color: #80808017;
+}
+
+.modal-background {
+  background-color: #80808080;
+  backdrop-filter: blur(3px);
+}
+
+.btn-boostrap {
+  background-color: #d9750b;
+  border-color: #d9750b;
+}
+
+.btn-boostrap:hover {
+  color: #fefefe;
+  background-color: #a75803;
+  border-color: #a75803;
+}
+
+.btn-boostrap:active {
+  color: #fefefe!important;
+  background-color: #a75803!important;
+  border-color: #a75803!important;
+}
+  
