@@ -74,16 +74,18 @@ export const Table = () => {
 
     return (
         <div className="container">
-            <h1 className='my-3'>Movies</h1>
+            <div>
+                <h1 className='my-3 animate__animated animate__rotateIn' >Movies</h1>
+            </div>
             <div className='d-flex justify-content-between'>
-                <button className="btn btn-primary mb-3 btn-boostrap" onClick={() => setShowCreateModal(true)}>
+                <button className="btn btn-primary mb-3 btn-boostrap animate__animated animate__fadeInLeft" onClick={() => setShowCreateModal(true)}>
                     Create new movie
                 </button>
-                <button className="btn btn-primary mb-3 btn-boostrap" onClick={() => logOut()}>
+                <button className="btn btn-primary mb-3 btn-boostrap animate__animated animate__fadeInRight" onClick={() => logOut()}>
                     Logout
                 </button>
             </div>
-            <table className="table table-striped table-bordered table-hover">
+            <table className="table table-striped table-bordered table-hover animate__animated animate__fadeInUp">
                 <thead className='fs-4'>
                     <tr>
                         <th>Title</th>

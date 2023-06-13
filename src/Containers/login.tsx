@@ -24,7 +24,7 @@ export const Login = () => {
 
   return (
     <div className='bodyColor'>
-      <div className="container">
+      <div className="container animate__animated animate__fadeInDownBig">
         <div className="row justify-content-center align-content-center vh-100">
           <div className="col-md-6">
             <div className="card">
