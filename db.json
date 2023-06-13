@@ -14,15 +14,21 @@
   "movies": [
     {
       "id": 1686498767855,
-      "title": "Prueb Espacio",
-      "year": "1897",
-      "genere": "Drama"
+      "title": "Odisea en el Espacio",
+      "year": "1999",
+      "genere": "Aventura"
     },
     {
       "id": 1686537217164,
       "title": "El juego del Miedo",
       "year": "1998",
       "genere": "Terror"
+    },
+    {
+      "id": 1686623550345,
+      "title": "Matrix",
+      "year": "1999",
+      "genere": "Ciencia Ficcion"
     }
   ]
 }

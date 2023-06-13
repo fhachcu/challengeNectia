@@ -29,15 +29,15 @@ export const EditMovieModal = ({ show, onClose, onSave, movie, setMovie }: EditM
               <div className="modal-body px-4">
                 <div className="form-group my-3">
                   <label className='fw-bold pb-2'>Title</label>
-                  <input type="text" name="title" value={movie.title} onChange={handleChange} className="form-control" pattern="[a-zA-Z0-9\s]+" required/>
+                  <input type="text" name="title" value={movie.title} onChange={handleChange} className="form-control" pattern="[a-zA-Z0-9\s]+" maxLength={40} minLength={2} required/>
                 </div>
                 <div className="form-group my-3">
                   <label className='fw-bold pb-2'>Genere</label>
-                  <input type="text" name="genere" value={movie.genere} onChange={handleChange} className="form-control" pattern="[a-zA-Z0-9\s]+" required/>
+                  <input type="text" name="genere" value={movie.genere} onChange={handleChange} className="form-control" pattern="[a-zA-Z0-9\s]+" maxLength={40} minLength={2} required/>
                 </div>
                 <div className="form-group my-3">
                   <label className='fw-bold pb-2'>Year</label>
-                  <input type="number" name="year" value={movie.year} onChange={handleChange} className="form-control" pattern="[0-9]+"/>
+                  <input type="number" name="year" value={movie.year} onChange={handleChange} className="form-control" maxLength={4} minLength={4} pattern="[0-9]+"/>
                 </div>
               </div>
               <div className="modal-footer">
