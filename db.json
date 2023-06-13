@@ -29,6 +29,78 @@
       "title": "Matrix",
       "year": "1999",
       "genere": "Ciencia Ficcion"
+    },
+    {
+      "id": 1686623567890,
+      "title": "El Señor de los Anillos: La Comunidad del Anillo",
+      "year": "2001",
+      "genere": "Fantasia"
+    },
+    {
+      "id": 1686623581234,
+      "title": "Titanic",
+      "year": "1997",
+      "genere": "Drama"
+    },
+    {
+      "id": 1686623598765,
+      "title": "Star Wars: Episodio IV - Una Nueva Esperanza",
+      "year": "1977",
+      "genere": "Ciencia Ficcion"
+    },
+    {
+      "id": 1686623612345,
+      "title": "El Padrino",
+      "year": "1972",
+      "genere": "Drama"
+    },
+    {
+      "id": 1686623623456,
+      "title": "Forrest Gump",
+      "year": "1994",
+      "genere": "Drama"
+    },
+    {
+      "id": 1686623634567,
+      "title": "Jurassic Park",
+      "year": "1993",
+      "genere": "Aventura"
+    },
+    {
+      "id": 1686623645678,
+      "title": "Indiana Jones y los cazadores del arca perdida",
+      "year": "1981",
+      "genere": "Aventura"
+    },
+    {
+      "id": 1686623656789,
+      "title": "El Club de la Pelea",
+      "year": "1999",
+      "genere": "Drama"
+    },
+    {
+      "id": 1686623667890,
+      "title": "El Silencio de los Inocentes",
+      "year": "1991",
+      "genere": "Terror"
+    },
+    {
+      "id": 1686623678901,
+      "title": "El Gran Lebowski",
+      "year": "1998",
+      "genere": "Comedia"
+    },
+    {
+      "id": 1686623689012,
+      "title": "Blade Runner",
+      "year": "1982",
+      "genere": "Ciencia Ficcion"
+    },
+    {
+      "id": 1686623701234,
+      "title": "El Resplandor",
+      "year": "1980",
+      "genere": "Terror"
     }
   ]
 }
